@@ -1,36 +1,43 @@
-## RetroTINK VGA2NTSC - KiCad Respin
+# RetroTINK VGA2NTSC - KiCad Respin
 
 This is a modified version of Mike Chi's VGA2NTSC v1.1.
 The first goal was to convert the original Altium source files to KiCad - a free and open source tool - as not everyone has access to Altium. Secondly, most footprints have been swapped to make the board more DIY friendly - for example swapping 0402 components (difficult to solder by hand) with 0805 or larger.
 
-<img align="center" src="Images/VGA2NTSCv11-jnftech-20200420%20top.svg">
+![](Images/VGA2NTSCv11-jnftech-20200420%20top.svg)
 
-#### Goals:
+### Goals:
 Convert original Altium project to KiCad
+
 Use 0805 footprints instead of smaller packages
+
 Keep location of jacks and mounting holes in the same locations
+
 Keep circuit identical to original schematics
+
 Adjust vertical board size slightly to fit within 100x100mm size limit for cheap boards with many popular PCB fabs
+
 Add a footprint for a DC barrel jack instead of USB power (either-or can be used in the same spot). Warning has been added to the board denoting 5V power only
+
 Modified power distribution rail using bottom layer of board
+
 Relocated clock section to minimize routing near other signals or underneath video amp
+
 Minimized the use of vias for signal traces where possible.
 
-#### Tools used for conversion:
-Altium2Kicad <LINK>
-Tracespace View (conversion of original Gerbers to SVG for reference and silkscreen adaptations - Alitum2Kicad doesn’t translate original fonts/graphics) <LINK>
-KiCad 5.1.5 <LINK>
-Inkscape <LINK>
+### Tools used for conversion:
+Altium2Kicad https://github.com/thesourcerer8/altium2kicad
+Tracespace View (conversion of original Gerbers to SVG for reference and silkscreen adaptations - Alitum2Kicad doesn’t translate original fonts/graphics) https://tracespace.io/view/
+KiCad 5.1.5 https://www.kicad-pcb.org/
+Inkscape https://inkscape.org/
 
-![image](Images/smVGA2NTSCv11-jnftech-20200420%20Top.jpg)
-![image](Images/smVGA2NTSCv11-jnftech-20200420%20Side.jpg)
-![image](Images/smVGA2NTSCv11-jnftech-20200420%20Side%202.jpg)
-
+<img align="center" src="Images/smVGA2NTSCv11-jnftech-20200420%20Top.jpg">
+<img align="center" src="Images/smVGA2NTSCv11-jnftech-20200420%20Side.jpg">
+<img align="center" src="Images/smVGA2NTSCv11-jnftech-20200420%20Side%202.jpg">
 
 This derivative work maintains the same source license as the original board.
 https://www.retrotink.com/post/vga2ntsc-released
 
-#### “Mike Chi” License:
+### “Mike Chi” License:
 (From https://www.retrotink.com/post/vga2ntsc-released)
 
 License
