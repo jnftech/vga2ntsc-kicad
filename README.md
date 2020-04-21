@@ -15,6 +15,8 @@ The first goal was to convert the original Altium source files to KiCad - a free
 - Modified power distribution rail using bottom layer of board
 - Relocated clock section to minimize routing near other signals or underneath video amp
 - Minimized the use of vias for signal traces where possible.
+- More KiCad practice for me
+- Finally try to publish something on GitHub (first repo!)
 
 ### Tools used for conversion:
 - Altium2Kicad https://github.com/thesourcerer8/altium2kicad
