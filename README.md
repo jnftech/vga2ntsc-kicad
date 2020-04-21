@@ -3,7 +3,7 @@
 This is a modified version of Mike Chi's VGA2NTSC v1.1.
 The first goal was to convert the original Altium source files to KiCad - a free and open source tool - as not everyone has access to Altium. Secondly, most footprints have been swapped to make the board more DIY friendly - for example swapping 0402 components (difficult to solder by hand) with 0805 or larger.
 
-![image](/Images/VGA2NTSCv11-jnftech-20200420 top.svg)
+![image](Images/VGA2NTSCv11-jnftech-20200420 top.svg)
 
 
 #### Goals:
