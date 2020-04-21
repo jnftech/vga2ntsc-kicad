@@ -6,7 +6,7 @@ The first goal was to convert the original Altium source files to KiCad - a free
 ![image](/Images/VGA2NTSCv11-jnftech-20200420 top.svg)
 
 
-# Goals:
+#### Goals:
 Convert original Altium project to KiCad
 Use 0805 footprints instead of smaller packages
 Keep location of jacks and mounting holes in the same locations
@@ -17,7 +17,7 @@ Modified power distribution rail using bottom layer of board
 Relocated clock section to minimize routing near other signals or underneath video amp
 Minimized the use of vias for signal traces where possible.
 
-# Tools used for conversion:
+#### Tools used for conversion:
 Altium2Kicad <LINK>
 Tracespace View (conversion of original Gerbers to SVG for reference and silkscreen adaptations - Alitum2Kicad doesn’t translate original fonts/graphics) <LINK>
 KiCad 5.1.5 <LINK>
@@ -31,7 +31,7 @@ Inkscape <LINK>
 This derivative work maintains the same source license as the original board.
 https://www.retrotink.com/post/vga2ntsc-released
 
-# “Mike Chi” License:
+#### “Mike Chi” License:
 
 License
 The materials are released under the terms below. I don't have time for pedantic nonsense or legal theory and like to keep things simple. I call this the 'Mike Chi' license.
