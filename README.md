@@ -3,8 +3,7 @@
 This is a modified version of Mike Chi's VGA2NTSC v1.1.
 The first goal was to convert the original Altium source files to KiCad - a free and open source tool - as not everyone has access to Altium. Secondly, most footprints have been swapped to make the board more DIY friendly - for example swapping 0402 components (difficult to solder by hand) with 0805 or larger.
 
-![image](Images/VGA2NTSCv11-jnftech-20200420 top.svg)
-
+<img align="center" src="Images/VGA2NTSCv11-jnftech-20200420%20top.svg">
 
 #### Goals:
 Convert original Altium project to KiCad
@@ -23,25 +22,34 @@ Tracespace View (conversion of original Gerbers to SVG for reference and silkscr
 KiCad 5.1.5 <LINK>
 Inkscape <LINK>
 
-![image](/Images/VGA2NTSCv11-jnftech-20200420 top.svg)
-![image](/Images/VGA2NTSCv11-jnftech-20200420 top.svg)
-![image](/Images/VGA2NTSCv11-jnftech-20200420 top.svg)
+![image](Images/smVGA2NTSCv11-jnftech-20200420%20Top.jpg)
+![image](Images/smVGA2NTSCv11-jnftech-20200420%20Side.jpg)
+![image](Images/smVGA2NTSCv11-jnftech-20200420%20Side%202.jpg)
 
 
 This derivative work maintains the same source license as the original board.
 https://www.retrotink.com/post/vga2ntsc-released
 
 #### “Mike Chi” License:
+(From https://www.retrotink.com/post/vga2ntsc-released)
 
 License
 The materials are released under the terms below. I don't have time for pedantic nonsense or legal theory and like to keep things simple. I call this the 'Mike Chi' license.
+
 *For each project, at my sole discretion, I may release whatever sources, to whatever level of abstraction, that I deem appropriate. Additional information/materials may be released on a scheduled determined at my sole discretion.
+
 *You may modify, use or adapt any or all portions of the released material for any purpose you wish, including sale.
+
 *The exception is that the files may not be used for commercial activities by entities, determined at my sole discretion, that have a history of violating intellectual property rights or licenses.
+
 *If these materials were helpful and/or of use to you, I only ask that you provide some form of acknowledgment that you feel is fair.
+
 *I'd also love to hear about how you're using it!
+
 *If you re-distribute the material in a substantially unaltered form, please include this notice.
+
 *NO WARRANTY EXPRESSED OR IMPLIED. WE TAKE ABSOLUTELY NO RESPONSIBILITY FOR WHAT MAY OCCUR FROM USAGE OF THE FILES.
+
 *WE CANNOT AND WILL NOT OFFER ANY SUPPORT FOR THE USAGE OF THE FILES. IF YOU DO NOT AGREE WITH THESE TERMS THEN DO NOT USE ANY OF THE MATERIALS AND DON'T COMPLAIN.
 
 https://www.retrotink.com/
