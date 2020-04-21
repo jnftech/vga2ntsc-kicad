@@ -1,4 +1,4 @@
-444129423916712
+445724647740658
 Battery_Holders
 Bulgin_BX0036_1xC
 
@@ -29505,6 +29505,13 @@ SSOP 0.65
 14
 14
 JFT Footprints
+WirepadJumper
+
+
+0
+2
+2
+JFT Footprints
 Wirepad_1x5-2.54mm-wHoles
 
 
@@ -51273,7 +51280,7 @@ Connector_MicroUSB_Amp10118194-0001LF
 
 0
 9
-6
+9
 VGA2NTSC
 Crystal_4SMD-NL_3.2mmx2.5mm
 
