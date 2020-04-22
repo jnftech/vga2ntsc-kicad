@@ -1,4 +1,4 @@
-445724647740658
+445728912257380
 Battery_Holders
 Bulgin_BX0036_1xC
 
@@ -29379,6 +29379,13 @@ SSOP 0.65
 38
 20
 JFT Footprints
+SW_HRO-SK-12D02_SPDT_Angled
+CuK miniature slide switch, OS series, SPDT, right angle, http://www.ckswitches.com/media/1428/os.pdf
+switch SPDT
+0
+5
+3
+JFT Footprints
 SW_SPDT_PCM12_AlpsSSSS811101
 Ultraminiature Surface Mount Slide Switch
 ALPS SSSS811101
@@ -51249,13 +51256,6 @@ Power Jack
 VGA2NTSC
 CP_Tantalum_Case-C_EIA-6032-28_JFT
 Tantalum capacitor, Case C, EIA 6032-28, 6.0x3.2x2.5mm, Hand soldering footprint
-capacitor tantalum smd
-0
-2
-2
-VGA2NTSC
-CP_Tantalum_Case-D_EIA-7343-31_Wave-JFT
-Tantalum capacitor, Case D, EIA 7343-31, 7.3x4.3x2.8mm, Wave soldering footprint
 capacitor tantalum smd
 0
 2
