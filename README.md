@@ -18,7 +18,7 @@ The first goal was to convert the original Altium source files to KiCad - a free
 - More KiCad practice for me
 - Finally try to publish something on GitHub (first repo!)
 
-### Todos:
+### Todo:
 - Tidy up board outline. Kicad doesnt play well with Edge.Cuts in footprints when they overlap the board outline, so the circular drills used on the SCART and RCJ-4xx footprints are a workaround.
 - Add selectable HV/CSYNC switch
 - Add additional clock circuit and switch for PAL mode
