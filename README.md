@@ -23,7 +23,7 @@ The first goal was to convert the original Altium source files to KiCad - a free
 - Add selectable HV/CSYNC switch
 - Add additional clock circuit and switch for PAL mode
 - Look for other improvements based on AD725 datasheet information
-- (Maybe) version with SCART and/or XRGB-style 8-pin MiniDIN Input
+- (Maybe) version with SCART and/or XRGB-style 8-pin MiniDIN Input  
 Some of these tweaks are on a test version that is being fabbed by JLCPCB now.
 
 ### Tools used for conversion:
