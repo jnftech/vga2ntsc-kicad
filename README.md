@@ -18,6 +18,14 @@ The first goal was to convert the original Altium source files to KiCad - a free
 - More KiCad practice for me
 - Finally try to publish something on GitHub (first repo!)
 
+### Todos:
+- Tidy up board outline. Kicad doesnt play well with Edge.Cuts in footprints when they overlap the board outline, so the circular drills used on the SCART and RCJ-4xx footprints are a workaround.
+- Add selectable HV/CSYNC switch
+- Add additional clock circuit and switch for PAL mode
+- Look for other improvements based on AD725 datasheet information
+- (Maybe) version with SCART and/or XRGB-style 8-pin MiniDIN Input
+Some of these tweaks are on a test version that is being fabbed by JLCPCB now.
+
 ### Tools used for conversion:
 - Altium2Kicad https://github.com/thesourcerer8/altium2kicad
 - Tracespace View (conversion of original Gerbers to SVG for reference and silkscreen adaptations - Alitum2Kicad doesn’t translate original fonts/graphics) https://tracespace.io/view/
