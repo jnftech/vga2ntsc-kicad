@@ -27,6 +27,9 @@ The first goal was to convert the original Altium source files to KiCad - a free
   
 Some of these tweaks are on a test version that is being fabbed by JLCPCB now.
 
+### Notes:
+- The board design uses vias-in-pads. This can be a problem for some fabs. JLCPCB (at least with default HASL plating) and OSHpark dont seem to have an issue with this, but some fabs might depending on how they plate the pads. You may need to adjust the locations of the vias and add a couple traces to compensate, should you run into this situation.
+
 ### Tools used for conversion:
 - Altium2Kicad https://github.com/thesourcerer8/altium2kicad
 - Tracespace View (conversion of original Gerbers to SVG for reference and silkscreen adaptations - Alitum2Kicad doesn’t translate original fonts/graphics) https://tracespace.io/view/
