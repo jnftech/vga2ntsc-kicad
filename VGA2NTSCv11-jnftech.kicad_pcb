@@ -3330,7 +3330,7 @@
     (tags "SSOP 0.65")
     (path /5E8F82DD)
     (attr smd)
-    (fp_text reference U1 (at 0 -3.55) (layer F.SilkS)
+    (fp_text reference U1 (at 0 0.114) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "Video Buffer" (at 0 3.55) (layer F.Fab)
@@ -3397,7 +3397,7 @@
     (tags "SOIC 1.27")
     (path /5E8F82FE)
     (attr smd)
-    (fp_text reference U2 (at 0 -6.25) (layer F.SilkS)
+    (fp_text reference U2 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Encoder (at 0 6.25) (layer F.Fab)
@@ -3468,7 +3468,7 @@
     (tags "SOIC 1.27")
     (path /5E8F82FF)
     (attr smd)
-    (fp_text reference U3 (at 0 -3.5 90) (layer F.SilkS)
+    (fp_text reference U3 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value OSC/DIV (at 0 3.5 90) (layer F.Fab)
@@ -3523,7 +3523,7 @@
   (gr_line (start 164.629 116.332) (end 164.629 115.316) (layer F.SilkS) (width 0.15) (tstamp 5E9D7A4D))
   (gr_line (start 164.629 121.364) (end 164.629 122.38) (layer F.SilkS) (width 0.15))
   (gr_line (start 164.121 121.872) (end 165.137 121.872) (layer F.SilkS) (width 0.15))
-  (gr_text "BASED ON v1.1 (C) MIKE CHI 2020\nwww.retrotink.com\nREVISED BOARD LAYOUT: JNFTECH (20200421)\nretro.jnftech.net | github.com/jnftech" (at 144.78 33.274) (layer F.SilkS)
+  (gr_text "BASED ON v1.1 (C) MIKE CHI 2020\nwww.retrotink.com\nREVISED BOARD LAYOUT: JNFTECH (202000506)\nretro.jnftech.net | github.com/jnftech" (at 144.78 33.274) (layer F.SilkS)
     (effects (font (size 0.75 0.75) (thickness 0.15)) (justify left))
   )
   (gr_arc (start 182.626 25.794) (end 181.102 25.794) (angle -90) (layer Edge.Cuts) (width 0.1))
