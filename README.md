@@ -39,9 +39,11 @@ Some of these tweaks are on a test version that is being fabbed by JLCPCB now.
 - KiCad 5.1.5 https://www.kicad-pcb.org/
 - Inkscape https://inkscape.org/
 
-<img align="center" src="Images/smVGA2NTSCv11-jnftech-20200420%20Top.jpg">
-<img align="center" src="Images/smVGA2NTSCv11-jnftech-20200420%20Side.jpg">
-<img align="center" src="Images/smVGA2NTSCv11-jnftech-20200420%20Side%202.jpg">
+<p align="center">
+<img width="300" src="Images/smVGA2NTSCv11-jnftech-20200420%20Top.jpg">
+<img width="300" src="Images/smVGA2NTSCv11-jnftech-20200420%20Side.jpg">
+<img width="300" src="Images/smVGA2NTSCv11-jnftech-20200420%20Side%202.jpg">
+</p>
 
 This derivative work maintains the same source license as the original board.
 https://www.retrotink.com/post/vga2ntsc-released
