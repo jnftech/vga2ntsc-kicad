@@ -40,9 +40,9 @@ Some of these tweaks are on a test version that is being fabbed by JLCPCB now.
 - Inkscape https://inkscape.org/
 
 <p align="center">
-<img width="300" src="Images/smVGA2NTSCv11-jnftech-20200420%20Top.jpg">  
-<img width="300" src="Images/smVGA2NTSCv11-jnftech-20200420%20Side.jpg">  
-<img width="300" src="Images/smVGA2NTSCv11-jnftech-20200420%20Side%202.jpg">  
+<img width="300" src="Images/smVGA2NTSCv11-jnftech-20200420%20Top.jpg"><br />
+<img width="300" src="Images/smVGA2NTSCv11-jnftech-20200420%20Side.jpg"><br />
+<img width="300" src="Images/smVGA2NTSCv11-jnftech-20200420%20Side%202.jpg"><br />
 </p>
 
 This derivative work maintains the same source license as the original board.
