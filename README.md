@@ -36,7 +36,7 @@ Some of these tweaks are on a test version that is being fabbed by JLCPCB now.
 ### Tools used for conversion:
 - Altium2Kicad https://github.com/thesourcerer8/altium2kicad
 - Tracespace View (conversion of original Gerbers to SVG for reference and silkscreen adaptations - Alitum2Kicad doesn’t translate original fonts/graphics) https://tracespace.io/view/
-- KiCad 5.1.5 https://www.kicad-pcb.org/
+- KiCad 5.1.5 https://www.kicad.org/
 - Inkscape https://inkscape.org/
 
 <p align="center">
