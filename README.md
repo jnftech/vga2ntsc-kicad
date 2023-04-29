@@ -49,8 +49,8 @@ As of April 2023, the version shown here is a "final" version (meaning I will no
 
 <p align="center">
 <img width="300" src="Images/smVGA2NTSCv11-jnftech-20210703-render-top_transparent.png"><br />
-<img width="300" src="Images/smVGA2NTSCv11-jnftech-20210703-render-sideB_transparent.png">
-<img width="300" src="Images/smVGA2NTSCv11-jnftech-20200420%20Side%202.jpg"><br />
+<img width="300" src="Images/smVGA2NTSCv11-jnftech-20210703-render-sideA_transparent.png">
+<img width="300" src="Images/smVGA2NTSCv11-jnftech-20210703-render-sideB_transparent.png"><br />
 </p>
 
 This derivative work maintains the same source license as the original board.
