@@ -13,7 +13,7 @@ As of April 2023, the version shown here is a "final" version (meaning I will no
 
 ### Goals:
 - Convert original Altium project to KiCad
-- Use 0805 footprints instead of smaller packages (original used 0402 components which are difficult to solder by hand)
+- Use 0805 footprints instead of smaller packages
 - Keep location of jacks and mounting holes in the same locations
 - Keep circuit identical to original schematics
 - Adjust vertical board size slightly to fit within 100x100mm size limit for cheap boards with many popular PCB fabs
