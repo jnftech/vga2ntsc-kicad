@@ -517,4 +517,19 @@ X BYPASS 9 800 -200 300 L 70 70 0 1 I
 ENDDRAW
 ENDDEF
 #
+# wirepad
+#
+DEF wirepad P 0 40 Y Y 1 F N
+F0 "P" 0 100 50 H V C CNN
+F1 "wirepad" 0 -75 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -25 25 25 -25 0 1 0 N
+P 2 0 1 0 -50 50 50 -50 N
+P 2 0 1 0 50 50 -50 -50 N
+X 1 1 0 0 100 D 50 50 1 1 I N
+ENDDRAW
+ENDDEF
+#
 #End Library

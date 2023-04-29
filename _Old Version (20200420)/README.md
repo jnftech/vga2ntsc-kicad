@@ -3,17 +3,14 @@
 This is a modified version of Mike Chi's VGA2NTSC v1.1.
 The first goal was to convert the original Altium source files to KiCad - a free and open source tool - as not everyone has access to Altium. Secondly, most footprints have been swapped to make the board more DIY friendly - for example swapping 0402 components (difficult to solder by hand) with 0805 or larger.
 
-As of April 2023, the version shown here is a "final" version (meaning I will no longer make further improvements) that I completed in mid-2021 and only now finally publishing to Github. The changes between the Old version (2020/04/20, archived in the "_Old" folder) and this version are outlined below. 
-
 <p align="center">
-  <img width="250" src="Images/VGA2NTSCv11-jnftech-20210703-gerber-top.svg">
-  <img width="250" src="Images/VGA2NTSCv11-jnftech-20210703-gerber-bottom.svg">
+  <img width="300" src="Images/VGA2NTSCv11-jnftech-20200420 top.svg">
 </p>
 
 
 ### Goals:
 - Convert original Altium project to KiCad
-- Use 0805 footprints instead of smaller packages (original used 0402 components which are difficult to solder by hand)
+- Use 0805 footprints instead of smaller packages
 - Keep location of jacks and mounting holes in the same locations
 - Keep circuit identical to original schematics
 - Adjust vertical board size slightly to fit within 100x100mm size limit for cheap boards with many popular PCB fabs
@@ -24,19 +21,14 @@ As of April 2023, the version shown here is a "final" version (meaning I will no
 - More KiCad practice for me
 - Finally try to publish something on GitHub (first repo!)
 
-### Changed from 2020/04/20 version:
-- Tided up board outline and removed some workaround circular holes in some footprints.
-- Added selectable HV/CSYNC switch
-- AC coupling on the RGB lines of Scart Output (C22 - C25). The original design left these DC coupled. DC coupling can still be achieved by simply jumping the capacitor pads (for example using larger 0 ohm resistors, like 1206 or 1812)
-- Added a way to bypass the on-board clock circuit. This might be handy for someone wanting to get PAL output from the board by feeding in an external clock signal (EXT_CLOCK).
-  - Note that JP1 must be closed with solder for "normal" MTSC operation using the onboard clock circuit. Leave JP1 open to feed external clock signal.
-- Added pads for manipulating the NTSC/PAL pin on the AD725 if desired. Switching to PAL would require a different clock signal (see above).
-  - Close JP2 with solder for "normal" NTSC operation.
-- Added a YTRAP pad for feeding an external YTRAP circuit to the AD725.
-
-### TL;DR on the two solder jumpers (JP1 and JP2)
-- Close these both with solder if you are not using any of the "advanced tinkering features" above.
-
+### Todo:
+- Tidy up board outline. Kicad doesnt play well with Edge.Cuts in footprints when they overlap the board outline, so the circular drills used on the SCART and RCJ-4xx footprints are a workaround.
+- Add selectable HV/CSYNC switch
+- Add additional clock circuit and switch for PAL mode
+- Look for other improvements based on AD725 datasheet information
+- (Maybe) version with SCART and/or XRGB-style 8-pin MiniDIN Input  
+  
+Some of these tweaks are on a test version that is being fabbed by JLCPCB now.
 
 ### Notes:
 - The board design uses vias-in-pads. This can be a problem for some fabs. JLCPCB (at least with default HASL plating) and OSHpark dont seem to have an issue with this, but some fabs might depending on how they plate the pads. You may need to adjust the locations of the vias and add a couple traces to compensate, should you run into this situation.
@@ -44,12 +36,12 @@ As of April 2023, the version shown here is a "final" version (meaning I will no
 ### Tools used for conversion:
 - Altium2Kicad https://github.com/thesourcerer8/altium2kicad
 - Tracespace View (conversion of original Gerbers to SVG for reference and silkscreen adaptations - Alitum2Kicad doesn’t translate original fonts/graphics) https://tracespace.io/view/
-- KiCad 5.1.8 https://www.kicad.org/
+- KiCad 5.1.5 https://www.kicad.org/
 - Inkscape https://inkscape.org/
 
 <p align="center">
-<img width="300" src="Images/smVGA2NTSCv11-jnftech-20210703-render-top_transparent.png"><br />
-<img width="300" src="Images/smVGA2NTSCv11-jnftech-20210703-render-sideB_transparent.png">
+<img width="300" src="Images/smVGA2NTSCv11-jnftech-20200420%20Top.jpg"><br />
+<img width="300" src="Images/smVGA2NTSCv11-jnftech-20200420%20Side.jpg">
 <img width="300" src="Images/smVGA2NTSCv11-jnftech-20200420%20Side%202.jpg"><br />
 </p>
 
