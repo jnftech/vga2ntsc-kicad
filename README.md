@@ -28,18 +28,27 @@ As of April 2023, the version shown here is a "final" version (meaning I will no
 - Tided up board outline and removed some workaround circular holes in some footprints.
 - Added selectable HV/CSYNC switch
 - AC coupling on the RGB lines of Scart Output (C22 - C25). The original design left these DC coupled. DC coupling can still be achieved by simply jumping the capacitor pads (for example using larger 0 ohm resistors, like 1206 or 1812)
-- Added a way to bypass the on-board clock circuit. This might be handy for someone wanting to get PAL output from the board by feeding in an external clock signal (EXT_CLOCK).
-  - Note that JP1 must be closed with solder for "normal" MTSC operation using the onboard clock circuit. Leave JP1 open to feed external clock signal.
-- Added pads for manipulating the NTSC/PAL pin on the AD725 if desired. Switching to PAL would require a different clock signal (see above).
-  - Close JP2 with solder for "normal" NTSC operation.
-- Added a YTRAP pad for feeding an external YTRAP circuit to the AD725.
+- There are a few extra "tinkerer/advanced" pins (see below) but there are two solder jumpers implemented to make use of these.
 
 ### TL;DR on the two solder jumpers (JP1 and JP2)
-- Close these both with solder if you are not using any of the "advanced tinkering features" above.
+- Close these both with solder if you want just NTSC video output. If you are not sure, then just close them both.
 
+### Advanced/Tinkerer features (ignore this if you want just NTSC output with the standard board setup)
+- Added a way to bypass the on-board clock circuit. This might be handy for someone wanting to get PAL output from the board by feeding in an external clock signal (EXT_CLOCK). See warning note below.
+  - Note that JP1 must be closed with solder for "normal" NTSC operation using the onboard clock circuit. Leave JP1 open to feed external clock signal.
+- Added pads for manipulating the NTSC/PAL pin on the AD725 if desired. Switching to PAL would require a different clock signal (see above, and see warning note below).
+  - Close JP2 with solder for "normal" NTSC operation. (Just pulls the AD's STND pin high)
+  - Leave JP2 open if you want the ability to toggle the mode.
+  - WARNING: The three pins in the middle of the board (labeled "NTSC", "", and "PAL" on the underside) are there to implement a toggle. However the "NTSC" and "PAL" pins are just VCC and GND respectively, with the center pin being connected to the AD725's STND pin (which must be pulled either HIGH for NTSC, or LOW for PAL). As I did not have the foresight to think that through, there are no pullup/pulldown resistors. In other words DO NOT SHORT THE NTSC AND PAL PINS TOGETHER, and dont use MBB-style switches to toggle between.
+- Added a YTRAP pad for feeding an external YTRAP circuit to the AD725.
 
 ### Notes:
-- The board design uses vias-in-pads. This can be a problem for some fabs. JLCPCB (at least with default HASL plating) and OSHpark dont seem to have an issue with this, but some fabs might depending on how they plate the pads. You may need to adjust the locations of the vias and add a couple traces to compensate, should you run into this situation.
+
+<span style="color: red;">This board and circuit, as depicted in this repository, will only deliver an NTSC signal (hence the name VGA2NTSC).
+Presence of the aforementioned extra pins (jumpers, clock and NTSC/PAL pins) do not indicate that this board natively supports PAL or any standard other than NTSC.
+Those options are for advanced users/tinkerers that are prepard to supply the appropriate clock signal to the board to support other standards.</span>
+
+The board design uses vias-in-pads. This can be a problem for some fabs. JLCPCB (at least with default HASL plating) and OSHpark dont seem to have an issue with this, but some fabs might depending on how they plate the pads. You may need to adjust the locations of the vias and add a couple traces to compensate, should you run into this situation.
 
 ### Tools used for conversion:
 - Altium2Kicad https://github.com/thesourcerer8/altium2kicad
